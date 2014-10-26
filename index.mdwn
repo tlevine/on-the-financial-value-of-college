@@ -1,0 +1,269 @@
+[[!meta title="On the financial value of college"]]
+[[!meta description=""]]
+
+A friend sent me an newspaper article by
+[Jeff Guo](http://www.washingtonpost.com/people/jeff-guo)
+called "[Want proof college is worth it? Look at this list of the highest-paying majors](http://www.washingtonpost.com/news/storyline/wp/2014/09/29/want-proof-college-is-worth-it-look-at-this-list-of-the-highest-paying-majors/)",
+and that article discusses an article by 
+[Brad Hershbein](http://www.hamiltonproject.org/about_us/our_people/brad_hershbein/)
+and [Melissa S. Kearney](http://www.hamiltonproject.org/about_us/our_people/melissa_s._kearney/)
+called "[Major Decisions: What Graduates Earn Over Their Lifetimes](http://www.hamiltonproject.org/papers/major_decisions_what_graduates_earn_over_their_lifetimes/)".
+While the first of these articles makes so much hype about how going to college
+is a good idea financially, the second article isn't really about that. (It
+only looks at how much money people make.)
+So I wanted to take a look at whether going to college is a good idea in
+financial terms.
+
+## Assessments of the financial value of college from these articles
+Brad and Melissa's article doesn't discuss whether
+people who go to college are likely to make more money in the long run,
+but they do say some things that are related.
+
+Brad and Melissa discuss how much money people earn across their lifetimes and
+how it relates to the major they had in college.
+
+> Over the entire working life, the typical college graduate will earn $1.19
+> million in today’s dollars [2].  This is more than twice as much as the
+> lifetime earnings of a typical high school graduate ($580,000), and $335,000
+> more than that of a typical associate degree graduate. Figure 2 shows median
+> lifetime earnings for select majors, including those with the highest
+> earnings, those with the lowest earnings, and those that are among the most
+> common. As can be seen in the figure, lifetime earnings vary widely across
+> majors. Over the entire career, the highest-earning majors will earn about
+> two-and-a-half times what the lowest-earning majors will earn, a range from
+> over $2 million for some engineering majors to about $800,000 for early
+> childhood education. 
+
+Jeff summarizes this as follows.
+
+> The researchers estimate that even when college costs are taken into
+> account, the median early childhood education major still makes 10 percent
+> to 15 percent more than the median American with just a high school degree.
+
+That is, people who went to college make more money. But does it make up
+for tuition?
+Brad and Melissa briefly considered tuition costs.
+
+> Even if [$102,000] were subtracted from career earnings, it would still be
+> the case that median net lifetime earnings in every major would exceed those
+> of the median high school graduate. 
+
+They use this $102,000 figure because
+[another Hamilton Project article](http://www.hamiltonproject.org/files/downloads_and_links/06_college_value.pdf),
+by [Adam Looney](http://www.hamiltonproject.org/about_us/our_people/adam_looney/)
+and [Michael Greenstone](http://www.hamiltonproject.org/about_us/our_people/michael_greenstone/)
+estimated the average cost of a college degree to be $102,000.
+By adjusting in this manner, Brad and Melissa account for inflation but not
+for the other investments that you could make with your tuition money.
+
+Adam and Michael spend longer considering whether a college degree makes money
+and concluded that it does. More precisely, they conclude that it is a better
+investment than the stock market, corporate bonds, gold, &c. On the other hand,
+they don't consider the details of lifetime earnings. (Presumably, that is part
+of why Brad and Melissa did their study.)
+
+## Relating tuition and earnings in more detail
+Brad and Melissa have much detail on earnings and little detail on tuition.
+Oppositely, Adam and Michael have little detail on earnings and much detail
+on tuition. Let's consider both earnings and tuition. In order to be so
+detailed and still finish this in time to have lunch, however, I'm going to
+make you collect the empirical data.
+
+### Two investment choices
+Because they adjusted for inflation, we can think of Brad and Melissa's
+lifetime earnings figures as lump sums of money that you
+recieve when you stop working. Because you probably spent all of your
+college money within a few years (rather than across a lifetime), let's
+think of that as money that you invest when you are 20 and get some
+yearly return on.
+
+Let's assume that you make absolutely no money if you don't go to college.
+You probably would make some money, but this makes the math easier.
+
+Imagine that you are concerned only about money and that you have decided
+to invest a certain amount of money (Call it "college tuition", even though
+it includes your housing and food and whatnot.) when you are 20 and then
+cash in your investment when you are 65. You may choose between two
+purchases: college or the stock market. Which one should you choose?
+
+I have drawn the plot below to help you with that.
+
+<img alt="Predicted return on college and stock market investments"
+     src="general-predictions.png"
+     class="wide" />
+
+The *x* axis is the amount of money that you invest; you invest it either
+in college or the stock market. The *y* axis is the amount of money that
+you expect to get back from the investment.
+
+The two slanted lines are for if you invest in the stock market.
+There are two lines because I made two different guesses as to how well
+you'll do. The lines are slanted because you'll make more money
+if you start with more money.
+
+The three horizontal lines are for if you go to college. The three lines
+correspond to two different college majors (early childhood education and
+engineering) and to the median-earning college major. The lines are
+flat because Brad and Melissa's paper does not relate college expenses to
+lifetime earnings; their paper says that people who go to college make
+more money, but it does not say that people who spend more money on college
+make more money.
+
+### Calculating your costs
+Brad and Melissa converted earnings figures into
+[2014 dollars](http://www.hamiltonproject.org/files/downloads_and_links/MajorDecisions-TechnicalAppendix2.pdf).
+If you are going to college or went to college recently, you can consider that
+the value of the dollars you spent on college is approximately the same as it
+would have been in 2014. If not, adjust the tuition for that. (Multiply your actual tuition cost by 1.02, *n* times, where *n* is the difference between 2014 and the year you paid the money)
+
+If you took out loans, estimate the total interest that you will pay. If you
+expect that it will take more than like five years to pay back all the loans,
+adjust for inflation. (Divide each loan payment by 1.02 *n* times, where n is the number of years between when you received the money and when you paid back the money.)
+
+You can decide whether to consider just your college tuition or the sum of
+your tuition, housing, food, &c.
+
+### Your earnings
+Figure out how much you are earning, guess how much you are going to earn,
+and/or look up in Brad and Melissa's paper how much your major is expected
+to earn.
+
+### An example
+Let's use me as an example, because I'm curious about what I'll find.
+
+I spent $100,000 on college.
+
+<img alt="Tom spent $100,000 on college."
+     src="tom-expenses.png"
+     class="wide" />
+
+I didn't see "ergonomics" in Brad and Melissa's paper, and the only "design"
+is "graphic design", so let's say that I'm "multidisciplinary science".
+
+<img alt="We predict that Tom will earn $1.15 million through his life."
+     src="tom-predictions.png"
+     class="wide" />
+
+I just drew lines for my expenses and predict earnings; this point is
+their intersection.
+
+<img alt="Tom's college expenses and his predicted lifetime earnings"
+     src="tom-both.png"
+     class="wide" />
+
+Now let's put that pink dot on top of the first plot I drew.
+
+<img alt="How Tom's investment compares to alternatives"
+     src="tom-comparison.png"
+     class="wide" />
+
+It looks like my situation was quite typical.
+I spent about $100,000 on college,
+and Adam and Michael found $102,000 to be the average expense.
+Multidisciplinary science majors earn on median
+[$1.19 million](http://www.hamiltonproject.org/files/downloads_and_links/FINAL_MajorDecisions-Appendix_Table_2.pdf) over a lifetime,
+and this is also the median across all majors.
+
+Recall that this calculation assumes that I make **no money** if I don't go
+to college. That is, it does not consider that people with high school degrees
+and no college degree make $580,000 on median.
+In my situation, instead of going to college and then working, I could have
+invested $100,000 in the stock market, [retired](/!/sleeping),
+and still earned as much money through my investment as a typical college
+graduate earns in total.
+
+### The usual problems with simplifying things
+This simplification of the world carries all of the usual cautions,
+as [Brad and Melissa](http://www.hamiltonproject.org/files/downloads_and_links/MajorDecisions-Appendix_001.pdf)'s explain.
+
+## Another way of thinking about this
+It might seem strange that I could make more money by not working and not going
+to college than many people would make by working and not going to college.
+
+The difference is that I started with $100,000 and they didn't.
+I could spend the money on college and expect a higher salary,
+or I could save the money and not work at all.
+Either way, I was already set for life.
+
+### Other things
+Life is more complex, of course. I didn't go to college,
+I'd probably still earn more in a job than many other people would because
+of various prejudices against people without money and in favor of people
+with money.
+
+### Apparent contradictions
+This may seem to contradict the findings of the papers I reference; here's
+why that happens.
+
+Brad and Melissa's paper doesn't consider what you would do with the money
+that you saved by not going to college, while I assume that you are going to
+invest it in the stock market.
+
+Michael and Adam's paper considers that you could invest in the stock market,
+but it uses different figures for the lifetime earnings. It looks complicated,
+and I don't really know what's going on. If you are curious, you can read more
+about the figures in
+[this article](http://www.econ.ku.dk/okojacob/MAKRO-E05/article-education.pdf).
+My hunch is that their use of an average rather than a median will explain the
+difference, but, again, I don't really know what's going on.
+
+## Why college might be a good investment
+College might be a good investment if either you either pay very little for
+it and it gets you into a high-paying industry. In this case, it is interesting
+to consider some related investments.
+
+### A scenario
+Let's be more precise about what I mean by "very little" and "high-paying".
+Suppose you pay $50,000 for college, get a degree in engineering, and then
+work in engineering. (It happens that my friend's degree is in engineering.)
+
+If you didn't go to college, your $50,000 might turn a bit under $1 million
+(based on our graph), and this would be added to all your other earnings,
+which total about $580,000 (on median). Let's figure that this is $1.5 million.
+
+Our graph suggests that you will make about $2 million in your life if you
+go to college instead, which is about $500,000 more.
+
+### Work-related investments
+If you choose to go into a high-paying industry, your investment is your
+broader preparation for work in that industry. College tuition is a substantial
+part of that, but there's more; you have to decide to be in such an industry,
+and you probably have to work rather much (both in college and after).
+
+### School-related investments
+If you go to a public school, you probably have to work extra hard throughout
+your life (mostly during your 20s though) to convince people that you are worth
+hiring. This extra work is another substantial investment.
+
+If you manage to pay only $50,000 at a private school, it's probably by
+convincing someone else to pay the other $150,000 for you; you might call this
+a "scholarship". Applying for scholarships is a large investment because it
+is a lot of work. Also, the exact scholarship that you get might limit the
+sorts of schooling and work that you can do; this exchange of reduced options
+in hope of more pay is another sort of investment.
+
+## Conclusion
+I think that college can be a good financial investment if you put yourself
+in a very special situation, like my friend apparently did. She chose a
+field that makes bank and clearly found some way to pay very little for
+college. She must have planned very well and generally worked very hard.
+
+Making money is hard because everyone else is trying to too; that's how
+capitalism works. I'm now seeing an investing in college to carry the same
+sorts of difficulties as those associated with renting out real estate,
+starting small businesses, and investing in the stock market.
+
+## Appendix
+[Here](earnings-tuition.r)'s the code for drawing the plots.
+
+<pre>[[!inline pages="__33__/on-the-financial-value-of-college/earnings-tuition.r" raw="yes"]]</pre>
+
+<!--
+## Quantitative research as religious texts
+The friend just graduated from college. She mentioned that she didn't have
+any financial support for college and that she is now earning more in her
+entry-level job than her parents ever made.
+
+This is part of a pattern that I see rather often: The biggest advocates for
+a thing are usually the people who are hoping that they made the right choice.
+-->
