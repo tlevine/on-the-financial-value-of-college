@@ -90,7 +90,7 @@ p.tom.comparison <- p.predictions +
 
 ppplot <- function(plot, filename) ggsave(filename = filename,
                                           plot = plot,
-                                          width = 8, height = 6,
+                                          width = 12, height = 7,
                                          units = 'in', dpi = 200)
 ppplot(p.predictions, 'general-predictions.png')
 ppplot(p.tom.expenses, 'tom-expenses.png')
