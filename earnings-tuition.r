@@ -28,7 +28,7 @@ college <- data.frame(
                            gsub('\\.', ' ', names(lifetime.earnings)), ')')
 )
 not.college <- data.frame(
-  investment = 'Not College',
+  investment = 'Stock market',
   label.x = 1.8e5,
   earnings.intercept = 0,
   earnings.slope = sapply(stock.market.return, function(rate)
@@ -41,6 +41,8 @@ both <- rbind(college, not.college)
 
 p.base <- ggplot(both) +
   aes(color = investment) +
+  scale_color_manual(values = c('grey60', 'grey20'),
+                     name = 'Investment type') +
   theme_minimal() +
   theme(title = element_text(face = 'bold'),
         panel.grid.minor = element_blank(),
@@ -50,9 +52,9 @@ p.base <- ggplot(both) +
   scale_y_continuous('Earnings (today dollars)',
                      limits = c(0, 2.5e6), labels = dollar)
 
-stock.label <- 'Stock market lines assume annual withdrawals
-that start at 15% the cost of college and increase
-by 2.5% per year.'
+stock.label <- 'Stock investment lines assume annual withdrawals that
+start at 15% the cost of college and increase by 2.5% per year.
+(This serves as a salary.)'
 p.predictions <- p.base +
   geom_abline(aes(slope = earnings.slope,
                   intercept = earnings.intercept,
