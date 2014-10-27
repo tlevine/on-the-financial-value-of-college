@@ -148,6 +148,12 @@ two different guesses as to how well the stock market will do, as that
 substantially affects your earnings for that scenario. The lines are slanted
 because you'll make more money if you start with more money.
 
+The three stock market lines include the initial savings as money earned.
+This is a bit weird, but it makes the results correspond better to the
+college investment. Think of it like this: You can either go to college
+and earn money at a higher rate or not go to college, get a head start
+on your earnings, and earn money at a lower rate.
+
 The three horizontal lines are for if you go to college. The three lines
 correspond to two different college majors (early childhood education and
 engineering) and to the median-earning college major. The lines are
@@ -211,6 +217,12 @@ Multidisciplinary science majors earn on median
 [$1.19 million](http://www.hamiltonproject.org/files/downloads_and_links/FINAL_MajorDecisions-Appendix_Table_2.pdf) over a lifetime,
 and this is also the median across all majors.
 
+If I had decided to retire right after high school and I plan poorly
+(that is, I withdraw $15,000, plus inflation, every year),
+I my plot says I would have earned as much by not going to college as
+I will by going to college. And if I plan better (that is, spend less
+than $15,000 plus inflation per year), I'll earn even more money.
+
 Recall that this calculation assumes that I make **no money** if I don't go
 to college. That is, it does not consider that people with high school degrees
 and no college degree make $580,000 on median.
@@ -218,6 +230,11 @@ In my situation, instead of going to college and then working, I could have
 invested $100,000 in the stock market, [retired](/!/sleeping),
 and earned nearly as much money through my investment as a typical college
 graduate earns in total.
+
+Now let's consider what happens if I *do* work. If the stock market does
+very poorly, I'll earn about as much as if I don't work. But if the stock
+market performs more typically, I could have expected more than twice the
+earnings!
 
 ### The usual problems with simplifying things
 This simplification of the world carries all of the usual cautions,
