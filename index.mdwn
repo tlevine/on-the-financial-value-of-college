@@ -126,9 +126,9 @@ college fund. Which makes sense?
 
 Imagine that you are concerned only about money and that you have decided
 to invest a certain amount of money (Call it "college tuition", even though
-it includes your housing and food and whatnot.) when you are 20 and then
-cash in your investment when you are 65. You may choose between two
-purchases: college or the stock market. Which one should you choose?
+it includes your housing and food and whatnot.) when you are 20. You may
+choose between two purchases: college or the stock market. Which one should
+you choose?
 
 I have drawn the plot below to help you with that.
 
@@ -140,10 +140,13 @@ The *x* axis is the amount of money that you invest; you invest it either
 in college or the stock market. The *y* axis is the amount of money that
 you expect to get back from the investment.
 
-The two slanted lines are for if you invest in the stock market.
-There are two lines because I made two different guesses as to how well
-you'll do. The lines are slanted because you'll make more money
-if you start with more money.
+The three slanted lines are for if you invest in the stock market.
+The two green lines are for if you work a low-paying job too, and the
+yellow line is for if you retire right after college.
+There are two lines for the "Stock market and work" scenario because I made
+two different guesses as to how well the stock market will do, as that
+substantially affects your earnings for that scenario. The lines are slanted
+because you'll make more money if you start with more money.
 
 The three horizontal lines are for if you go to college. The three lines
 correspond to two different college majors (early childhood education and
