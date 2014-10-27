@@ -22,6 +22,7 @@ earnings.slope <- function(stock.market.return, prop.withdrawn) {
   }
   begin.state <- list(money = 1, withdrawals = 0)
   end.state <- Reduce(f, 1:years.invested, init = begin.state)
+  print(Reduce(f, 1:years.invested, init = begin.state, accumulate = TRUE))
   end.state$money + end.state$withdrawals
 }
 
@@ -45,12 +46,11 @@ retire <- data.frame(
   investment = 'Stock market',
   label.x = 1.5e5,
   earnings.intercept = 0,
-  earnings.slope = sapply(min(stock.market.return), function(rate)
+  earnings.slope = sapply(stock.market.return, function(rate)
                           earnings.slope(rate, prop.withdrawn))
 )
 retire$label.y <- 0.9 * retire$label.x * retire$earnings.slope
-retire$full.investment <- paste0(
-  'Stocks\nwith\nwithdrawals\n(', round(100 * (min(stock.market.return) - 1)), '%)')
+retire$full.investment <- c('', 'Stocks\nwith\nwithdrawals\n(6 to 8 %)')
 
 work <- data.frame(
   investment = 'Stock market and work',
