@@ -215,21 +215,8 @@ Multidisciplinary science majors earn on median
 [$1.19 million](http://www.hamiltonproject.org/files/downloads_and_links/FINAL_MajorDecisions-Appendix_Table_2.pdf) over a lifetime,
 and this is also the median across all majors.
 
-If I had decided to retire right after high school and I plan poorly
-(that is, I withdraw $15,000, plus inflation, every year),
-I my plot says I would have earned as much by not going to college as
-I will by going to college. And if I plan better (that is, spend less
-than $15,000 plus inflation per year), I'll earn even more money.
-
-Recall that this calculation assumes that I make **no money** if I don't go
-to college. That is, it does not consider that people with high school degrees
-and no college degree make $580,000 on median.
-In my situation, instead of going to college and then working, I could have
-invested $100,000 in the stock market, [retired](/!/sleeping),
-and earned nearly as much money through my investment as a typical college
-graduate earns in total.
-
-Now let's consider what happens if I *do* work. If the stock market does
+It turns out that retiring right away is a bad idea. But working instead
+of college seems pretty good. If the stock market does
 very poorly, I'll earn about as much as if I don't work. But if the stock
 market performs more typically, I could have expected more than twice the
 earnings!
@@ -283,11 +270,10 @@ Let's be more precise about what I mean by "very little" and "high-paying".
 Suppose you pay $50,000 for college, get a degree in engineering, and then
 work in engineering. (It happens that my friend's degree is in engineering.)
 
-If you didn't go to college, your $50,000 might turn into a bit $1 million
-(based on our graph).
-
-Our graph suggests that you will make about $2 million in your life if you
-go to college instead, which is about $500,000 more.
+If you didn't go to college, your $50,000 might turn into $1.5 million,
+or $800,000 if you're unlucky (based on our graph). Our graph suggests
+that you will make about $2 million in your life if you go to college
+instead, which is at least $500,000 more.
 
 ### Work-related investments
 If you choose to go into a high-paying industry, your investment is your
