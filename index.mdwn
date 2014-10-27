@@ -83,7 +83,8 @@ and then work afterwards. Brad and Melissa estimated how much money you
 might earn if you do this
 
 #### Not college and retire
-Let's assume that you make absolutely no money if you don't go to college.
+Can you retire on a college tuition? Let's see.
+We'll assume that you make absolutely no money if you don't go to college.
 (You probably would make some money, but I'll talk about that later.)
 Instead of going to college, you withdraw money every year to pay for your
 living expenses.
@@ -103,7 +104,26 @@ The money you have saved has already been taxed, so a withdrawal of $15,000
 might be much better than a salary of $15,000. I don't know tax rules
 very well, however, so I'm not sure.
 
+### Not college and work
+Perhaps you don't go to college and instead start working right away.
+Like the previous option, you don't spend your money on college, but
+instead of spending the money on living expenses, you work a job to
+cover your living expenses.
+
+You work until you are 65 and earn what a typical person who hasn't
+gone to college earns: A median lifetime earnings of $580,000 within
+that period, or $13,000 per year if you work for 45 years.
+(These are present-day figures,
+so both would really increase over your life.)
+
+You decide not to touch your college savings until you retire. That is,
+you neither deposit nor withdraw any money into your savings account until
+you are 65; you spend your entire $13,000 salary on living expenses.
+
 ### Which investment?
+I just proposed three (really just two) things you might do with your
+college fund. Which makes sense?
+
 Imagine that you are concerned only about money and that you have decided
 to invest a certain amount of money (Call it "college tuition", even though
 it includes your housing and food and whatnot.) when you are 20 and then
@@ -271,6 +291,18 @@ The present study lumps all different people into the same group, using
 figures from two studies that take medians and means, respectively, from
 the entire United States. My present results are just as meaningless as
 those from any other wacky economic model.
+
+Some specific things that might make my model not relevant to the real
+world follow.
+
+* Having lots of savings might make you ineligible for various welfare
+    programs.
+* The amount of money you earn might depend more on your social class
+    than on whether you went to college.
+* It might matter where you went to college.
+* The cost figure is a mean, and the earnings figure is a median.
+    I suspect that the median cost of college is in fact much lower than
+    the mean cost of college.
 
 ## Conclusion
 I think that college can be a good financial investment if you put yourself
