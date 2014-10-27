@@ -9,7 +9,7 @@ inflation <- 1.025 # 3% inflation
 median.no.college <- 5.8e5
 
 colors <- c(tom = '#fe57a1',
-            college = 'grey60',
+            college = 'grey70',
             work = '#57FD8F',
             retire = '#F1FF57')
 
@@ -70,20 +70,22 @@ p.base <- ggplot(both) +
                      name = 'Investment type') +
   theme_minimal() +
   theme(title = element_text(face = 'bold'),
+        plot.background = element_rect(fill = 'black'),
+        text = element_text(color = 'white'),
         panel.grid.minor = element_blank(),
         panel.grid.major = element_blank()) +
   scale_x_continuous('Cost of college (today dollars)',
                      limits = c(0, 2e5), labels = dollar) +
   scale_y_continuous('Earnings (today dollars)',
-                     limits = c(0, 2.5e6), labels = dollar)
+                     limits = c(0, 3e6), labels = dollar)
 
-stock.retire.label <- 'Stock investment lines assume annual withdrawals that
-start at 15% the cost of college and increase by 2.5% per year.
-(This serves as a salary.)'
+stock.retire.label <- 'Stock investment with withdrawals assumes annual
+withdrawals that start at 15% the cost of college and increase
+by 2.5% per year. (This serves as a salary.)'
 
 no.college.salary <- round(median.no.college / years.invested / 1000)
 stock.work.label <- paste0(
-'Stock investments without withdrawals assume that you work
+'Stock investment without withdrawals assume that you work
 a job that pays your living expenses but does not let you
 save money. On median, you can expect a yearly salary starting
 at $', no.college.salary, ',000 and increasing with inflation.')
@@ -100,9 +102,9 @@ p.predictions <- p.base +
                 lineheight = .8,
                 label = full.investment)) +
   annotate('text', x = 2e5, y = 1e5, label = stock.retire.label,
-           hjust = 1, vjust = 0) +
-  annotate('text', x = 0, y = 2.5e6, label = stock.work.label,
-           hjust = 0, vjust = 1) +
+           color = unname(colors['retire']), hjust = 1, vjust = 0) +
+  annotate('text', x = 0, y = 3e6, label = stock.work.label,
+           color = unname(colors['work']), hjust = 0, vjust = 1) +
   ggtitle('Predicted return on college and stock market investments')
 
 p.tom.expenses <- p.base + geom_vline(xintercept = 1e5) +
