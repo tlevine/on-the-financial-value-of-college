@@ -249,6 +249,10 @@ I could spend the money on college and expect a higher salary,
 or I could save the money and not work at all.
 Either way, I was already set for life.
 
+People stay near the particular economic levels that they start at; in order
+to move up economically, you need to get someone to give you money or something
+like money, such as a scholarship.
+
 ### Other things
 Life is more complex, of course. I didn't go to college,
 I'd probably still earn more in a job than many other people would because
@@ -281,9 +285,8 @@ Let's be more precise about what I mean by "very little" and "high-paying".
 Suppose you pay $50,000 for college, get a degree in engineering, and then
 work in engineering. (It happens that my friend's degree is in engineering.)
 
-If you didn't go to college, your $50,000 might turn a bit under $1 million
-(based on our graph), and this would be added to all your other earnings,
-which total about $580,000 (on median). Let's figure that this is $1.5 million.
+If you didn't go to college, your $50,000 might turn into a bit $1 million
+(based on our graph).
 
 Our graph suggests that you will make about $2 million in your life if you
 go to college instead, which is about $500,000 more.
@@ -323,6 +326,8 @@ world follow.
 * The cost figure is a mean, and the earnings figure is a median.
     I suspect that the median cost of college is in fact much lower than
     the mean cost of college.
+* The model assumes that nobody who doesn't go to college has any savings,
+    as this gets factored into the estimates of earnings.
 
 ## Conclusion
 I think that college can be a good financial investment if you put yourself
