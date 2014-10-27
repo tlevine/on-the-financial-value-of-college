@@ -69,7 +69,7 @@ on tuition. Let's consider both earnings and tuition. In order to be so
 detailed and still finish this in time to have lunch, however, I'm going to
 make you collect the empirical data.
 
-### Two investment choices
+### Three (really two) investment choices
 Because they adjusted for inflation, we can think of Brad and Melissa's
 lifetime earnings figures as lump sums of money that you
 recieve when you stop working. Because you probably spent all of your
@@ -77,9 +77,33 @@ college money within a few years (rather than across a lifetime), let's
 think of that as money that you invest when you are 20 and get some
 yearly return on.
 
-Let's assume that you make absolutely no money if you don't go to college.
-You probably would make some money, but this makes the math easier.
+#### College and work
+One thing you might do with this money is purchase a college education
+and then work afterwards. Brad and Melissa estimated how much money you
+might earn if you do this
 
+#### Not college and retire
+Let's assume that you make absolutely no money if you don't go to college.
+(You probably would make some money, but I'll talk about that later.)
+Instead of going to college, you withdraw money every year to pay for your
+living expenses.
+
+For example, let's figure that you have saved up $100,000. Instead of going
+to college, you withdraw $15,000 (15%) the first year. Because of inflation,
+you have to withdraw more each year (Let's say 2.5% more).
+
+My choice of withdrawing 15% is a very conservative estimate.
+
+First, this is a high withdrawal rate, and you will run out of money before
+you get to 65; if you withdrew something closer to 7%, you not run out of
+money and would wind up earning more money in total.
+
+Second, this might be equivalent to a higher salary than you think.
+The money you have saved has already been taxed, so a withdrawal of $15,000
+might be much better than a salary of $15,000. I don't know tax rules
+very well, however, so I'm not sure.
+
+### Which investment?
 Imagine that you are concerned only about money and that you have decided
 to invest a certain amount of money (Call it "college tuition", even though
 it includes your housing and food and whatnot.) when you are 20 and then
@@ -241,6 +265,12 @@ a "scholarship". Applying for scholarships is a large investment because it
 is a lot of work. Also, the exact scholarship that you get might limit the
 sorts of schooling and work that you can do; this exchange of reduced options
 in hope of more pay is another sort of investment.
+
+## Irrelevance of these findings
+The present study lumps all different people into the same group, using
+figures from two studies that take medians and means, respectively, from
+the entire United States. My present results are just as meaningless as
+those from any other wacky economic model.
 
 ## Conclusion
 I think that college can be a good financial investment if you put yourself
