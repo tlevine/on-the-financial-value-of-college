@@ -72,6 +72,7 @@ p.base <- ggplot(both) +
   theme(title = element_text(face = 'bold'),
         plot.background = element_rect(fill = 'black'),
         text = element_text(color = 'white'),
+        line = element_line(color = 'white'),
         panel.grid.minor = element_blank(),
         panel.grid.major = element_blank()) +
   scale_x_continuous('Cost of college (today dollars)',
@@ -107,15 +108,15 @@ p.predictions <- p.base +
            color = unname(colors['work']), hjust = 0, vjust = 1) +
   ggtitle('Predicted return on college and stock market investments')
 
-p.tom.expenses <- p.base + geom_vline(xintercept = 1e5) +
+p.tom.expenses <- p.base + geom_vline(xintercept = 1e5, color = 'white') +
   ggtitle("Tom spent $100,000 on college.")
 
-p.tom.predictions <- p.base + geom_hline(yintercept = 1.19e6) +
+p.tom.predictions <- p.base + geom_hline(yintercept = 1.19e6, color = 'white') +
   ggtitle('Since Tom has a major in a multidisciplinary science,\nwe predict that he will earn $1.19 million in his life.')
 
 p.tom.both <- p.base +
-                geom_vline(xintercept = 1e5) +
-                geom_hline(yintercept = 1.15e6) +
+                geom_vline(xintercept = 1e5, color = 'white') +
+                geom_hline(yintercept = 1.15e6, color = 'white') +
                 aes(x = 1e5, y = 1.19e6) +
                 geom_point(color = colors['tom'], size = 20) +
                 geom_text(color = 'white', label = 'Tom') +
