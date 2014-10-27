@@ -57,12 +57,12 @@ retire$full.investment <- c('', 'Stocks with withdrawals (6 to 8 %)')
 
 work <- data.frame(
   investment = 'Stock market and work',
-  label.x = 3e4,
+  label.x = c(1e5, 3.5e4),
   earnings.intercept = 0,
   earnings.slope = sapply(stock.market.return, function(rate)
                           earnings.slope(rate, 0))
 )
-work$label.y <- 2 * work$label.x * work$earnings.slope
+work$label.y <- 2e6
 work$full.investment <- paste0(
   'Stocks\nwithout\nwithdrawals\n(', round(100 * (stock.market.return - 1)), '%)')
 
@@ -105,7 +105,7 @@ p.predictions <- p.base +
                 vjust = 1.2,
                 lineheight = .8,
                 label = full.investment)) +
-  annotate('text', x = 1.1e5, y = 7e5, label = stock.retire.label,
+  annotate('text', x = 9e4, y = 5.5e5, label = stock.retire.label,
            color = unname(colors['retire']), vjust = 1, lineheight = .8) +
   annotate('text', x = 0, y = 3e6, label = stock.work.label,
            lineheight = .8,
